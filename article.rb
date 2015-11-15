@@ -3,9 +3,9 @@ class Article
   attr_accessor :title, :body, :author
 
   def initialize(options = {})
-    @title = options[:title]
-    @body = options[:body]
-    @author = options[:author]
+    @title = options[:title] 
+    @body = options[:body] 
+    @author = options[:author] 
   end
 
   def title?
