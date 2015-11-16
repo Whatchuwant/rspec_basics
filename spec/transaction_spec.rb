@@ -19,7 +19,7 @@ describe 'Transaction' do
 
        context "#valid_time?" do
             it "returns true if valid_time" do
-               expect(transaction.valid_time?   `           (Time.now)).to eq(true)
+               expect(transaction.valid_time?(Time.now)).to eq(true)
            end
        end         
 end
